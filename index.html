@@ -393,7 +393,7 @@ footer .tl em{font-style:normal;color:var(--pink)}
       <div class="copy">
         <span class="eyebrow fade">Пет-комплекс полного цикла · Алматы</span>
         <h1><span class="ln"><span>Всё для</span></span><span class="ln"><span><em>хвоста</em> под</span></span><span class="ln"><span>одной крышей</span></span></h1>
-        <span class="hand fade" style="animation-delay:.5s">от первой встречи до последнего хвостика</span>
+        <span class="hand fade" style="animation-delay:.5s">every tail has a trail</span>
         <p class="lede fade" style="animation-delay:.6s">Отель с онлайн-камерой, ветклиника, груминг, кинологи, зоомагазин и приют с puppy yoga. Одна карта питомца на все услуги.</p>
         <div class="ctas fade" style="animation-delay:.75s">
           <a class="btn light mag" href="#book">Записаться<span class="ar"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
@@ -418,7 +418,7 @@ footer .tl em{font-style:normal;color:var(--pink)}
 <section class="sec" style="padding-bottom:0">
   <div class="wrap">
     <span class="eyebrow">О нас</span>
-    <p class="mani" id="mani" style="margin-top:28px">Мы собрали отель, клинику, груминг, кинологов, магазин и приют в одном месте, чтобы хозяину не приходилось искать всё по городу, а питомец встречал знакомых людей на каждом шагу — от первой встречи до последнего хвостика.</p>
+    <p class="mani" id="mani" style="margin-top:28px">Мы собрали отель, клинику, груминг, кинологов, магазин и приют в одном месте, чтобы хозяину не приходилось искать всё по городу, а питомец встречал знакомых людей на каждом шагу. Every tail has a trail.</p>
   </div>
 </section>
 
@@ -569,7 +569,7 @@ footer .tl em{font-style:normal;color:var(--pink)}
 
 <footer>
   <div class="wrap top">
-    <p class="tl">От первой встречи<br>до <em>последнего хвостика</em></p>
+    <p class="tl">Every tail<br><em>has a trail</em></p>
     <div><h4>Услуги</h4><ul><li><a href="#services">Отель T&amp;T Stay</a></li><li><a href="#services">Ветклиника T&amp;T Vet</a></li><li><a href="#services">Груминг T&amp;T Groom</a></li><li><a href="#services">Кинологи T&amp;T Academy</a></li></ul></div>
     <div><h4>Приют</h4><ul><li><a href="#yoga">Puppy yoga</a></li><li><a href="#adopt">Взять друга</a></li><li><a href="#faq">Вопросы</a></li></ul></div>
     <div><h4>Соцсети</h4><ul><li>Instagram · @tailandtrail</li><li>TikTok · @tailandtrail</li><li>#EveryTailHasATrail</li></ul></div>
@@ -633,7 +633,7 @@ footer .tl em{font-style:normal;color:var(--pink)}
   // manifesto word lighting
   var mani=$('mani');
   (function split(){
-    var hl=['отель,','клинику,','груминг,','кинологов,','магазин','приют,','хвостика.'];
+    var hl=['отель,','клинику,','груминг,','кинологов,','магазин','приют,','trail.'];
     var nodes=[].slice.call(mani.childNodes);mani.textContent='';
     nodes.forEach(function(n){
       if(n.nodeType===3){n.textContent.split(/(\s+)/).forEach(function(w){if(!w)return;if(/^\s+$/.test(w)){mani.appendChild(document.createTextNode(w));return}var s=document.createElement('span');s.className='wd'+(hl.indexOf(w)>-1?' hl':'');s.textContent=w;mani.appendChild(s)})}
